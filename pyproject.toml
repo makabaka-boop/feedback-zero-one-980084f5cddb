@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bamproj"
+version = "0.1.0"
+description = "BGZF/BAM 解析与参考投影后端（自写分帧与解析，仅用 zlib）"
+requires-python = ">=3.8"
+
+[project.scripts]
+bamproj = "bamproj.cli:main"
+
+[tool.setuptools]
+packages = ["bamproj"]

@@ -1,0 +1,317 @@
+{
+ "valid_main": {
+  "status": "ok",
+  "bam": "valid_main.bam",
+  "expected": "valid_main.expected.json"
+ },
+ "valid_multiblock": {
+  "status": "ok",
+  "bam": "valid_multiblock.bam",
+  "expected": "valid_multiblock.expected.json"
+ },
+ "valid_random": {
+  "status": "ok",
+  "bam": "valid_random.bam",
+  "expected": "valid_random.expected.json"
+ },
+ "valid_cg": {
+  "status": "ok",
+  "bam": "valid_cg.bam",
+  "expected": "valid_cg.expected.json"
+ },
+ "valid_empty": {
+  "status": "ok",
+  "bam": "valid_empty.bam",
+  "expected": "valid_empty.expected.json"
+ },
+ "valid_all_unmapped": {
+  "status": "ok",
+  "bam": "valid_all_unmapped.bam",
+  "expected": "valid_all_unmapped.expected.json"
+ },
+ "valid_no_text": {
+  "status": "ok",
+  "bam": "valid_no_text.bam",
+  "expected": "valid_no_text.expected.json"
+ },
+ "bgzf_empty_file": {
+  "status": "error",
+  "bam": "bgzf_empty_file.bam",
+  "offset": 0
+ },
+ "bgzf_bad_magic": {
+  "status": "error",
+  "bam": "bgzf_bad_magic.bam",
+  "offset": 0
+ },
+ "bgzf_bad_cm": {
+  "status": "error",
+  "bam": "bgzf_bad_cm.bam",
+  "offset": 0
+ },
+ "bgzf_flg0": {
+  "status": "error",
+  "bam": "bgzf_flg0.bam",
+  "offset": 0
+ },
+ "bgzf_flg6": {
+  "status": "error",
+  "bam": "bgzf_flg6.bam",
+  "offset": 0
+ },
+ "bgzf_two_bc": {
+  "status": "error",
+  "bam": "bgzf_two_bc.bam",
+  "offset": 0
+ },
+ "bgzf_no_bc": {
+  "status": "error",
+  "bam": "bgzf_no_bc.bam",
+  "offset": 0
+ },
+ "bgzf_bc_slen4": {
+  "status": "error",
+  "bam": "bgzf_bc_slen4.bam",
+  "offset": 0
+ },
+ "bgzf_bad_crc": {
+  "status": "error",
+  "bam": "bgzf_bad_crc.bam",
+  "offset": 0
+ },
+ "bgzf_bad_isize": {
+  "status": "error",
+  "bam": "bgzf_bad_isize.bam",
+  "offset": 0
+ },
+ "bgzf_bad_deflate": {
+  "status": "error",
+  "bam": "bgzf_bad_deflate.bam",
+  "offset": 0
+ },
+ "bgzf_bsize_small": {
+  "status": "error",
+  "bam": "bgzf_bsize_small.bam",
+  "offset": 0
+ },
+ "bgzf_bsize_overrun": {
+  "status": "error",
+  "bam": "bgzf_bsize_overrun.bam",
+  "offset": 0
+ },
+ "bgzf_isize_over_64k": {
+  "status": "error",
+  "bam": "bgzf_isize_over_64k.bam",
+  "offset": 0
+ },
+ "bgzf_truncated_tail": {
+  "status": "error",
+  "bam": "bgzf_truncated_tail.bam",
+  "offset": 123
+ },
+ "bgzf_no_eof": {
+  "status": "error",
+  "bam": "bgzf_no_eof.bam",
+  "offset": 101
+ },
+ "bgzf_garbage_after_eof": {
+  "status": "error",
+  "bam": "bgzf_garbage_after_eof.bam",
+  "offset": 129
+ },
+ "bgzf_second_block_crc": {
+  "status": "error",
+  "bam": "bgzf_second_block_crc.bam",
+  "offset": 101
+ },
+ "hdr_bad_magic": {
+  "status": "error",
+  "bam": "hdr_bad_magic.bam",
+  "offset": 0
+ },
+ "hdr_short": {
+  "status": "error",
+  "bam": "hdr_short.bam",
+  "offset": 0
+ },
+ "hdr_ltext_negative": {
+  "status": "error",
+  "bam": "hdr_ltext_negative.bam",
+  "offset": 0
+ },
+ "hdr_ltext_overrun": {
+  "status": "error",
+  "bam": "hdr_ltext_overrun.bam",
+  "offset": 0
+ },
+ "hdr_nref_negative": {
+  "status": "error",
+  "bam": "hdr_nref_negative.bam",
+  "offset": 0
+ },
+ "hdr_nref_overrun": {
+  "status": "error",
+  "bam": "hdr_nref_overrun.bam",
+  "offset": 0
+ },
+ "hdr_ref_dup": {
+  "status": "error",
+  "bam": "hdr_ref_dup.bam",
+  "offset": 0
+ },
+ "hdr_ref_len_zero": {
+  "status": "error",
+  "bam": "hdr_ref_len_zero.bam",
+  "offset": 0
+ },
+ "hdr_ref_len_negative": {
+  "status": "error",
+  "bam": "hdr_ref_len_negative.bam",
+  "offset": 0
+ },
+ "hdr_ref_name_no_nul": {
+  "status": "error",
+  "bam": "hdr_ref_name_no_nul.bam",
+  "offset": 0
+ },
+ "hdr_ref_lname_zero": {
+  "status": "error",
+  "bam": "hdr_ref_lname_zero.bam",
+  "offset": 0
+ },
+ "hdr_ref_truncated": {
+  "status": "error",
+  "bam": "hdr_ref_truncated.bam",
+  "offset": 0
+ },
+ "rec_bad_op": {
+  "status": "error",
+  "bam": "rec_bad_op.bam",
+  "offset": 98
+ },
+ "rec_op_b": {
+  "status": "error",
+  "bam": "rec_op_b.bam",
+  "offset": 98
+ },
+ "rec_zero_len": {
+  "status": "error",
+  "bam": "rec_zero_len.bam",
+  "offset": 98
+ },
+ "rec_consumption": {
+  "status": "error",
+  "bam": "rec_consumption.bam",
+  "offset": 98
+ },
+ "rec_span": {
+  "status": "error",
+  "bam": "rec_span.bam",
+  "offset": 98
+ },
+ "rec_pos_beyond": {
+  "status": "error",
+  "bam": "rec_pos_beyond.bam",
+  "offset": 98
+ },
+ "rec_soft_middle": {
+  "status": "error",
+  "bam": "rec_soft_middle.bam",
+  "offset": 98
+ },
+ "rec_hard_middle": {
+  "status": "error",
+  "bam": "rec_hard_middle.bam",
+  "offset": 98
+ },
+ "rec_h_before_s_end": {
+  "status": "error",
+  "bam": "rec_h_before_s_end.bam",
+  "offset": 98
+ },
+ "rec_qual_mixed": {
+  "status": "error",
+  "bam": "rec_qual_mixed.bam",
+  "offset": 98
+ },
+ "rec_qual_94": {
+  "status": "error",
+  "bam": "rec_qual_94.bam",
+  "offset": 98
+ },
+ "rec_dup_aux": {
+  "status": "error",
+  "bam": "rec_dup_aux.bam",
+  "offset": 98
+ },
+ "rec_bad_aux_type": {
+  "status": "error",
+  "bam": "rec_bad_aux_type.bam",
+  "offset": 98
+ },
+ "rec_aux_truncated": {
+  "status": "error",
+  "bam": "rec_aux_truncated.bam",
+  "offset": 98
+ },
+ "rec_aux_b_bad_sub": {
+  "status": "error",
+  "bam": "rec_aux_b_bad_sub.bam",
+  "offset": 98
+ },
+ "rec_aux_b_overrun": {
+  "status": "error",
+  "bam": "rec_aux_b_overrun.bam",
+  "offset": 98
+ },
+ "rec_aux_extra_byte": {
+  "status": "error",
+  "bam": "rec_aux_extra_byte.bam",
+  "offset": 98
+ },
+ "rec_placeholder_no_cg": {
+  "status": "error",
+  "bam": "rec_placeholder_no_cg.bam",
+  "offset": 98
+ },
+ "rec_placeholder_cg_z": {
+  "status": "error",
+  "bam": "rec_placeholder_cg_z.bam",
+  "offset": 98
+ },
+ "rec_refid_range": {
+  "status": "error",
+  "bam": "rec_refid_range.bam",
+  "offset": 98
+ },
+ "rec_pos_negative": {
+  "status": "error",
+  "bam": "rec_pos_negative.bam",
+  "offset": 98
+ },
+ "rec_name_no_nul": {
+  "status": "error",
+  "bam": "rec_name_no_nul.bam",
+  "offset": 98
+ },
+ "rec_block_size_small": {
+  "status": "error",
+  "bam": "rec_block_size_small.bam",
+  "offset": 98
+ },
+ "rec_block_size_overrun": {
+  "status": "error",
+  "bam": "rec_block_size_overrun.bam",
+  "offset": 98
+ },
+ "rec_leftover": {
+  "status": "error",
+  "bam": "rec_leftover.bam",
+  "offset": 143
+ },
+ "rec_second_record_bad_multiblock": {
+  "status": "error",
+  "bam": "rec_second_record_bad_multiblock.bam",
+  "offset": 9568271
+ }
+}
